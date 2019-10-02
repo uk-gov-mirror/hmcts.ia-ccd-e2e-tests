@@ -12,3 +12,7 @@ Then(/^I request respondent evidence$/, async function () {
 Then(/^I upload respondent evidence$/, async function () {
     await uploadRespondentEvidenceFlow.uploadRespondentEvidence(true);
 });
+
+Then(/^I upload Home Office bundle$/, async function () {
+    await uploadRespondentEvidenceFlow.uploadHomeOfficeBundle(true);
+});
