@@ -25,7 +25,7 @@ export class StartAppealFlow {
     }
 
     async completeScreeningQuestionsOutOfCountry(clickContinue = false) {
-        await this.ccdFormPage.runAccessbility();
+        //await this.ccdFormPage.runAccessbility();
         await this.ccdFormPage.click('My client is not in detention');
         await this.ccdFormPage.click('My client is not appealing an EU Settlement Scheme decision');
 
