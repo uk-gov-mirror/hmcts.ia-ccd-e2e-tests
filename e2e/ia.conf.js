@@ -14,7 +14,6 @@ module.exports = {
   IdamApiUrl: process.env.IDAM_URL || 'http://idam-api.aat.platform.hmcts.net',
   s2sUrl: process.env.S2S_URL || 'http://rpe-service-auth-provider-aat.service.core-compute-aat.internal',
   TestOutputDir: process.env.E2E_OUTPUT_DIR || './reports/tests',
-  TestForAccessibility: process.env.TESTS_FOR_ACCESSIBILITY === 'false',
 
   TestCaseOfficerUserName: process.env.TEST_CASEOFFICER_USERNAME,
   TestCaseOfficerPassword: process.env.TEST_CASEOFFICER_PASSWORD,
