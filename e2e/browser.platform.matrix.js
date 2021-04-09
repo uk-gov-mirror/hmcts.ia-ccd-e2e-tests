@@ -8,7 +8,8 @@ module.exports = {
           tunnelIdentifier: process.env.TUNNEL_IDENTIFIER || 'reformtunnel',
           extendedDebugging: true,
           sharedTestFiles: false,
-          maxInstances: 1
+          maxInstances: 1,
+          capturePerformance: true
         },
         {
           browserName: 'firefox',
@@ -18,7 +19,8 @@ module.exports = {
           tunnelIdentifier: process.env.TUNNEL_IDENTIFIER || 'reformtunnel',
           extendedDebugging: true,
           sharedTestFiles: false,
-          maxInstances: 1
+          maxInstances: 1,
+          capturePerformance: true
         },
         {
           browserName: 'chrome',
@@ -28,7 +30,8 @@ module.exports = {
           tunnelIdentifier: process.env.TUNNEL_IDENTIFIER || 'reformtunnel',
           extendedDebugging: true,
           sharedTestFiles: false,
-          maxInstances: 1
+          maxInstances: 1,
+          capturePerformance: true
         },
         {
           browserName: 'firefox',
@@ -38,7 +41,8 @@ module.exports = {
           tunnelIdentifier: process.env.TUNNEL_IDENTIFIER || 'reformtunnel',
           extendedDebugging: true,
           sharedTestFiles: false,
-          maxInstances: 1
+          maxInstances: 1,
+          capturePerformance: true
         },
         {
           browserName: 'safari',
@@ -49,6 +53,7 @@ module.exports = {
           extendedDebugging: true,
           sharedTestFiles: false,
           maxInstances: 1,
+          capturePerformance: true
         },
         {
           browserName: 'MicrosoftEdge',
@@ -58,7 +63,8 @@ module.exports = {
           tunnelIdentifier: process.env.TUNNEL_IDENTIFIER || 'reformtunnel',
           extendedDebugging: true,
           sharedTestFiles: false,
-          maxInstances: 1
+          maxInstances: 1,
+          capturePerformance: true
         },
         {
           browserName: 'internet explorer',
@@ -68,7 +74,8 @@ module.exports = {
           tunnelIdentifier: process.env.TUNNEL_IDENTIFIER || 'reformtunnel',
           extendedDebugging: true,
           sharedTestFiles: false,
-          maxInstances: 1
+          maxInstances: 1,
+          capturePerformance: true
         },
       ],
 };
