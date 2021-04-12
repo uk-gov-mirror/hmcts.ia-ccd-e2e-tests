@@ -97,12 +97,7 @@ Feature: Notice of Change (common component) - Previous Representation
     And I click the `Appellant` tab
     And I should see the `Appellant` page
     And I should see `Bilbo Baggins` in the `Name` field
-
-    # Company Name should reflect the new company name and not be the same
-    # as that of the previous legal rep. This issue raised with PO and BA
-    # within comments in Jira ticket RIA-4234.
-
-    And I should see `IA Legal Services` in the `Company` field
+    And I should see `Fake Org2 Ltd` in the `Company` field
     And I should see `ia-law-firm-c-sc@fake2.hmcts.net` in the `Email` field
     And I should see `new-reference-bbaggins` in the `Legal representative reference` field
     And I should see the text `Previous representation`
@@ -183,12 +178,7 @@ Feature: Notice of Change (common component) - Previous Representation
     And I click the `Appellant` tab
     And I should see the `Appellant` page
     And I should see `Bilbo Baggins` in the `Name` field
-
-    # Company Name should reflect the new company name and not be the same
-    # as that of the previous legal rep. This issue raised with PO and BA
-    # within comments in Jira ticket RIA-4234.
-
-    And I should see `IA Legal Services` in the `Company` field
+    And I should see `Fake Org2 Ltd` in the `Company` field
     And I should see `ia-law-firm-c-sc@fake2.hmcts.net` in the `Email` field
     And I should see `new-reference-bbaggins` in the `Legal representative reference` field
     And I should see the text `Previous representation`
@@ -267,12 +257,7 @@ Feature: Notice of Change (common component) - Previous Representation
     And I click the `Appellant` tab
     And I should see the `Appellant` page
     And I should see `Bilbo Baggins` in the `Name` field
-
-    # Company Name should reflect the new company name and not be the same
-    # as that of the previous legal rep. This issue raised with PO and BA
-    # within comments in Jira ticket RIA-4234.
-
-    And I should see `IA Legal Services` in the `Company` field
+    And I should see `Fake Org2 Ltd` in the `Company` field
     And I should see `ia-law-firm-c-sc@fake2.hmcts.net` in the `Email` field
     And I should see `new-reference-bbaggins` in the `Legal representative reference` field
     And I should see the text `Previous representation`
