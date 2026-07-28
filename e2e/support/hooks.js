@@ -7,6 +7,7 @@ let testData;
 
 Before(async function (scenario) {
     let test = `${scenario.pickle.uri}:${scenario.pickle.name}`;
+    console.log(test);
     if (!testData) {
         testData = {
             totalTests: [test],
