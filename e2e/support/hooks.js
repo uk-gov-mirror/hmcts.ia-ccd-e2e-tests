@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 let count = 0;
 let testData;
+import { CcdPage } from '../pages/ccd.page';
 
 Before(async function (scenario) {
     let test = `${scenario.pickle.uri}:${scenario.pickle.name}`;
@@ -18,7 +19,8 @@ Before(async function (scenario) {
 });
 
 After(async function (scenario) {
-    console.log(`Scenario results are ################ ${scenario.result.status}`);
+    const ccdPage = new CcdPage();
+    console.log(`Scenario results are ################ ${scenario.result.status} for caseUrl ${ccdPage.getStoredCaseUrl()}`);
     if (scenario.result.status.toLowerCase() === 'failed') {
         count++;
         const stream = await browser.takeScreenshot();
